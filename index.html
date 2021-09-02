@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Archive</title>
+    <!-- Bootstrip link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 </head>
-<body>
-    
+<body class="bg-white">
+    <!-- header section -->
+    <header></header>
+
+    <!-- Main section -->
+    <main>
+    <h1 class="text-center text-black mt-5">Search Your Favourite Book</h1>
+    <hr class = "w-50 mx-auto bg-white">
+    <div class="text-center p-1 ">
+        <input class="w-25" id="searchInput" type="text" placeholder="Type your book Name">
+        <button class="rounded text-bold px-4 text-white bg-danger" id="search-btn">Search</button>
+        <div class="text-danger mt-3 fw-bolder" id="error-handling">
+
+        </div>
+        <div id="book-container" class="row">
+
+         </div>
+       </div>
+    </main>
+    <!-- javascript link -->
     <script src="js/book.js"></script>
+
+    <!-- footer section -->
+    <footer></footer>
 </body>
 </html>
